@@ -17,6 +17,6 @@ Hope you will like it :)
 Screenshot
 ==========================
 <a>
-  <img src="http://img.blog.csdn.net/20150501172406499"/>
+  <img src="https://github.com/JueYingCoder/UseVolley/blob/master/app/src/main/res/mipmap-mdpi/screenshot.gif"/>
 </a>
 
