@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/movie_image"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <TextView
+        android:id="@+id/movie_name"
+        android:layout_toRightOf="@+id/movie_image"
+        android:layout_alignTop="@+id/movie_image"
+        android:layout_marginTop="1dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/movie_rating"
+        android:textColor="#f243"
+        android:textSize="13sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/movie_name"
+        android:layout_toRightOf="@+id/movie_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/movie_year"
+        android:textColor="#aaa"
+        android:textSize="10sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
